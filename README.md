@@ -14,3 +14,14 @@
 | /verification-welcomerole | Sets the welcome role to mention outside the embed welcome message when a user is verified. **Only required if welcome type is set to embed!** | /verification-welcomerole [Target Role] | /verification-welcomerole role:@Welcome Ping | False | Role is not set |
 | /verification-welcomemessage | Sets the welcome message to send to your main channel. **Welcome messages for embed type will be sent in an embed description!** | /verification-welcomemessage [Description] | /verification-welcomemessage description:Welcome to the server @Salem💗#3327! Please get some roles. | False | Welcome to the server @Salem💗#3327! |
 | /verification-requirement | Sets the server requirements that users need to follow in order to enter the server. | /verification-requirement [Description] | /verification-requirement description:Please make sure to follow Discord's TOS! | False | No requirement is set |
+
+# Message Help
+
+When setting up a message, you will probably want something to mention a user in it. Under this message will be a set of tags you can use in a message.
+
+## Tags
+
+- {user.mention} | Mentions the user. **E.g** • @Salem💗#3327
+- {user.tag} | Sends the username and tag of the user. **E.g** • Salem💗#3327
+- {user.id} | Sends the id of the user. **E.g** • 515989471645401088
+- {user.name} | Sends the username of a user. **E.g** • Salem💗
