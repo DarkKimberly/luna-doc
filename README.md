@@ -1,1 +1,5 @@
-# kakashi-help
+# Verification
+| Slash Command       | Description                                                                             | Usage                                                    | Example                                   | Required? | Default             |
+|---------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------|-----------|---------------------|
+| /verification-panel | Creates a panel for the verification system.                                            | /verification-panel /verification-panel [Target Channel] | /verification-panel channel:#get-verified | True      | Disabled            |
+| /verification-type  | Sets if the verification system should be an age verification or a normal verification. | /verification-type [True/False]                          | /verification-type age:true               | False     | Normal Verification |
