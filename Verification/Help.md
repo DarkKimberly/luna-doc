@@ -12,8 +12,9 @@
 | /verification-admin | Sets the admin role that will be given access to the verification administration panel. | /verification-admin [Target Role] | /verification-admin role:@Admin | True | Role is not set |
 | /verification-welcometype | Sets if the welcome message should be an embedded message or a normal message. | /verification-welcometype [True/False] | /verification-welcometype embed:True | False | Embed Message |
 | /verification-welcomerole | Sets the welcome role to mention outside the embed welcome message when a user is verified. **Only required if welcome type is set to embed!** | /verification-welcomerole [Target Role] | /verification-welcomerole role:@Welcome Ping | False | Role is not set |
-| /verification-welcomemessage | Sets the welcome message to send to your main channel. **Welcome messages for embed type will be sent in an embed description!** | /verification-welcomemessage [Description] | /verification-welcomemessage description:Welcome to the server @Salem💗#3327! Please get some roles. | False | Welcome to the server @Salem💗#3327! |
+| /verification-welcomemessage | Sets the welcome message to send to your main channel. **Welcome messages for embed type will be sent in an embed description!** | /verification-welcomemessage [Description] | /verification-welcomemessage description:Welcome to the server {user.mention}! Please get some roles. | False | Welcome to the server @Salem💗#3327! |
 | /verification-requirement | Sets the server requirements that users need to follow in order to enter the server. | /verification-requirement [Description] | /verification-requirement description:Please make sure to follow Discord's TOS! | False | No requirement is set |
+| /verify | Verify the mention user. **Only works in a verification channel!** | /verify [Target User] | /verify user:Salem💗#3327 | True | Not Verified |
 
 # Message Help
 
