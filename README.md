@@ -1,8 +1,8 @@
-# Kakashi Documentation
+# Moonlight Documentation
 
 ## Getting Started
 
-Before beginning anything, Kakashi is a moderation bot meant only for whitelisted servers. If you want access to Kakashi, please check the **How to invite** folder.
+Before beginning anything, Moonlight is a moderation bot meant only for whitelisted servers. If you want access to Moonlight, please check the **How to invite** folder.
 
 ## Documentation
 
